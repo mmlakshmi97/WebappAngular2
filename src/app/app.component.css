@@ -1,0 +1,104 @@
+
+nav{
+    background: yellowgreen;
+    padding: 20px 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+.main-div{
+    position: absolute;
+    width: 100%;
+    margin-top: 155px;
+}
+.first-div{
+    position: fixed;
+    width: 100%;
+    margin-top: 60px;
+    background-color: whitesmoke;
+    padding: 10px;
+    z-index: 10;
+}
+.second-div{
+    text-align: center;
+}
+.third-div{
+    height: 400px;
+    display: flex;
+    clear: both;
+}
+.third-div > div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(black, transparent);
+}
+.third-div > div > p{
+    color: white;
+    font-size: 35px;
+    margin: 0;
+} 
+ul.img-icon-ul li > a > img{
+    width: 25px;
+    margin-top: 5px;
+}
+ul.img-icon-ul li > a > img:nth-child(2){
+    width: 35px;
+}
+.fz-18{
+    font-size: 18px;
+}
+.img-w-40 > a > img{
+    width: 40px !important;
+    margin-top: 7px !important;
+}
+.img-w-40 > a{
+    padding: 7px !important;
+}
+.img-w-30 > a{
+    padding: 10px !important;
+}
+.img-w-30 > a > img{
+    width: 30px !important;
+    margin-top: 0px !important;
+}
+ul.img-icon-ul li {
+    border-radius: 20px;
+    background: white;
+    margin: 5px;
+}
+div.navbar > button{
+    background: violet;
+    margin-left: 85px;
+    padding: 10px;
+    border-radius: 10px;
+}
+div.navbar > button:focus{
+    outline: none;
+}
+div.navbar > button > i{
+    font-size: 1.2em;
+    color: white;
+}
+#collapsibleNavbar{
+    position: absolute;
+    /* display: inline-block; */
+    background: white;
+    top: 63px;
+    margin-left: 5px;
+    /* text-align: center; */
+    border-radius: 10px;
+
+}
+div.navbar-collapse > ul > li > a {
+    color: #000 !important;
+    padding: 15px 30px;
+}
+div.navbar-collapse > ul > li :hover {
+    background: #009a61;
+}
+div.navbar-collapse > ul > li :hover > a{
+    color: white !important;
+}

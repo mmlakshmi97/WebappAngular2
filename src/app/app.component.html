@@ -1,4 +1,4 @@
-<h1>
+<!-- <h1>
   {{title}}
 </h1>
 <h2>
@@ -8,7 +8,7 @@
   Needed
   1.Education
   2.Job
-  3.Car
+  3.Car 
   4. Good status
   5. CEO
 </nav>
@@ -28,4 +28,68 @@ Future
 </div>
 <footer>
   This is footer
-</footer>
+</footer> -->
+
+<nav>COVID-19 creates a great impact in my career, but motivates me to learn new technologies, giving much time for understand me. Let's enjoy to visit my website. </nav>
+<div class="first-div">
+  <div class="navbar">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" (click)="toggleNavbar()">
+      <!-- <span class="navbar-toggler-icon"></span> -->
+      <i class="fa fa-bars" aria-hidden="true"> </i>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar" [ngClass]="{ 'show': navbarOpen }">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.w3schools.com/html/" target="_blank">1. HTML/CSS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.w3schools.com/js/default.asp" target="_blank">2. JavaScript</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.youtube.com/watch?v=4HE_u-g83sY" target="_blank">3. Photoshop</a>
+        </li> 
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.youtube.com/watch?v=kYXvwpoQRk8" target="_blank">4. WordPress</a>
+        </li> 
+        <li class="nav-item">
+          <a class="nav-link" href="https://talentbridge.com/blog/7-steps-to-improve-your-analytical-thinking-skills/" target="_blank">5. Analytical Skills</a>
+        </li> 
+        <li class="nav-item">
+          <a class="nav-link" href="https://mangools.com/blog/learn-seo/" target="_blank">6. SEO</a>
+        </li> 
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.mockplus.com/blog/post/responsive-web-design-tutorials" target="_blank">7. Responsive Design</a>
+        </li>    
+      </ul>
+    </div> 
+    <div (click)="navbarOpen = false;">
+      <label class="mb-0 text-dark fz-18 font-weight-bold">Click here to know the <span style="color:tomato;">Web developer</span> should have the knowledge in these technical skills.</label>
+    </div>
+    <ul class="nav img-icon-ul" (click)="navbarOpen = false;">
+      <li class="nav-item">
+        <a class="nav-link" href="mailto:muthulakshmimuthulingam@gmail.com"><img [src]="gmailiconpath"></a>
+      </li>
+      <li class="nav-item img-w-40">
+        <a class="nav-link" href="https://www.linkedin.com/in/muthulakshmi-m-6a5925145/" target="_blank"><img [src]="linkediconpath"></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://github.com/mmlakshmi97/WebappAngular2" target="_blank"><img [src]="githubiconpath"></a>
+      </li>
+      <li class="nav-item img-w-30">
+        <a class="nav-link" href="https://twitter.com/MuthulakshmiM9" target="_blank"><img [src]="twittericonpath"></a>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="main-div">
+<div class="second-div">
+  <img [src]="fullImagePath">
+</div>
+<div class="third-div">
+  <img [src]="fullImagePath1">
+  <div>
+    <p>Welcome to My Goals!!!</p>
+  </div>
+</div>
+</div>
+
